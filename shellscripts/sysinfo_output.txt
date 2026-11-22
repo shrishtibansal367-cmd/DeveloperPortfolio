@@ -1,0 +1,25 @@
+==================================================
+          SYSTEM INFORMATION REPORT               
+==================================================
+Name: Your Name
+Roll Number: Your Roll Number
+Date: Sun Nov 22 18:12:37 UTC 2026
+--------------------------------------------------
+[CPU Information]
+Model name:                              Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Core(s) per socket:                      2
+Socket(s):                               1
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       453Mi       3.3Gi       4.1Mi       137Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+[Top 3 Processes by CPU Usage]
+    PID    PPID CMD                         %CPU
+      1       0 /sbin/init                   0.1
+    100       1 /usr/lib/systemd/systemd-ud  0.0
+     54       1 /usr/lib/systemd/systemd-jo  0.0
+--------------------------------------------------
+Report generated successfully.
+==================================================
