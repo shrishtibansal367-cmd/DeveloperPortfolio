@@ -1,62 +1,62 @@
-=== ls -la ~ ===
-total 88
-drwxr-x--- 11 hpshrishti hpshrishti  4096 Nov 22 17:59 .
+===== ls -la ~ =====
+total 96
+drwxr-x--- 11 hpshrishti hpshrishti  4096 Nov 23 14:43 .
 drwxr-xr-x  3 root       root        4096 Oct  7 14:40 ..
--rw-------  1 hpshrishti hpshrishti 16163 Nov 22 17:42 .bash_history
+-rw-------  1 hpshrishti hpshrishti 17824 Nov 23 13:54 .bash_history
 -rw-r--r--  1 hpshrishti hpshrishti   220 Oct  7 14:40 .bash_logout
 -rw-r--r--  1 hpshrishti hpshrishti  3771 Oct  7 14:40 .bashrc
 drwxr-x---  4 hpshrishti hpshrishti  4096 Oct  7 14:46 .cache
 drwxr-x---  4 hpshrishti hpshrishti  4096 Oct 21 07:41 .config
--rw-------  1 hpshrishti hpshrishti    82 Nov 22 06:22 .git-credentials
--rw-r--r--  1 hpshrishti hpshrishti   126 Nov 21 18:15 .gitconfig
--rw-------  1 hpshrishti hpshrishti    20 Nov 13 07:55 .lesshst
+-rw-------  1 hpshrishti hpshrishti    82 Nov 23 14:40 .git-credentials
+-rw-r--r--  1 hpshrishti hpshrishti   132 Nov 23 14:27 .gitconfig
+-rw-------  1 hpshrishti hpshrishti    20 Nov 23 14:43 .lesshst
 drwx------  3 hpshrishti hpshrishti  4096 Oct 23 09:04 .local
--rw-rw-r--  1 hpshrishti hpshrishti     0 Nov 22 03:57 .motd_shown
+-rw-rw-r--  1 hpshrishti hpshrishti     0 Nov 23 13:02 .motd_shown
 -rw-r--r--  1 hpshrishti hpshrishti   807 Oct  7 14:40 .profile
-drwxr-xr-x  3 hpshrishti hpshrishti  4096 Nov 22 14:30 DeveloperPortfolio
-drwxr-xr-x  2 hpshrishti hpshrishti  4096 Nov 22 17:59 DeveloperPortfolio_Backups
+drwxr-xr-x  9 hpshrishti hpshrishti  4096 Nov 23 14:40 DeveloperPortfolio
+drwxr-xr-x  2 hpshrishti hpshrishti  4096 Nov 22 18:15 DeveloperPortfolio_Backups
 drwxr-xr-x  7 hpshrishti hpshrishti  4096 Oct 23 10:55 Downloads
 -rw-r--r--  1 hpshrishti hpshrishti   827 Nov 19 17:25 README.md
 drwxr-xr-x  2 hpshrishti hpshrishti  4096 Oct 23 10:54 cse103_backups
 drwxr-xr-x  4 hpshrishti hpshrishti  4096 Nov  3 04:32 cse103_lab
 drwxr-xr-x  2 hpshrishti hpshrishti  4096 Oct 23 10:23 downloads
 
-=== ps aux | head -10 ===
+===== ps aux | head -10 =====
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root           1  0.1  0.3  24352 15372 ?        Ss   17:45   0:02 /sbin/init
-root           2  0.0  0.0   3820  2520 hvc0     Sl+  17:45   0:00 /init
-root           3  0.0  0.0   3680  2220 hvc0     S+   17:45   0:00 init-watcher
-root           8  0.0  0.0   3820  2292 hvc0     Sl+  17:45   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
-root          54  0.0  0.5  50672 21100 ?        S<s  17:45   0:00 /usr/lib/systemd/systemd-journald
-systemd+      86  0.0  0.3  22416 14504 ?        Ss   17:45   0:00 /usr/lib/systemd/systemd-resolved
-root         100  0.0  0.3  34728 11976 ?        Ss   17:45   0:01 /usr/lib/systemd/systemd-udevd
-root         133  0.0  0.0   2888  1944 ?        Ss   17:45   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
-root         137  0.0  0.0   4472  3096 ?        Ss   17:45   0:00 /usr/sbin/cron -f -P
+root           1  0.0  0.3  24516 15556 ?        Ss   13:37   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  13:37   0:00 /init
+root           3  0.0  0.0   3680  2216 hvc0     S+   13:37   0:00 init-watcher
+root           8  0.0  0.0   3820  2292 hvc0     Sl+  13:37   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          51  0.0  0.6  58844 24388 ?        S<s  13:37   0:01 /usr/lib/systemd/systemd-journald
+systemd+      84  0.0  0.3  22416 14488 ?        Ss   13:37   0:00 /usr/lib/systemd/systemd-resolved
+root          97  0.0  0.3  34672 11904 ?        Ss   13:37   0:02 /usr/lib/systemd/systemd-udevd
+root         116  0.0  0.0   2888  1948 ?        Ss   13:37   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         117  0.0  0.0   4472  3140 ?        Ss   13:37   0:00 /usr/sbin/cron -f -P
 
-=== df -h ===
+===== df -h =====
 Filesystem      Size  Used Avail Use% Mounted on
 none            1.9G     0  1.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
 /dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
 none            1.9G  4.0K  1.9G   1% /mnt/wsl
-drivers          97G   75G   23G  77% /usr/lib/wsl/drivers
+drivers          97G   73G   25G  75% /usr/lib/wsl/drivers
 /dev/sdd       1007G  1.7G  955G   1% /
-none            1.9G   40K  1.9G   1% /mnt/wslg
+none            1.9G   52K  1.9G   1% /mnt/wslg
 none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
 rootfs          1.9G  3.4M  1.9G   1% /init
-none            1.9G  488K  1.9G   1% /run
+none            1.9G  496K  1.9G   1% /run
 none            1.9G     0  1.9G   0% /run/lock
 none            1.9G     0  1.9G   0% /run/shm
 none            1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
 none            1.9G   80K  1.9G   1% /mnt/wslg/doc
-C:\              97G   75G   23G  77% /mnt/c
+C:\              97G   73G   25G  75% /mnt/c
 D:\             141G  105M  141G   1% /mnt/d
-none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 tmpfs           1.9G     0  1.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 tmpfs           386M   12K  386M   1% /run/user/1000
 
-=== free -h ===
+===== free -h =====
                total        used        free      shared  buff/cache   available
-Mem:           3.8Gi       455Mi       3.3Gi       4.1Mi       128Mi       3.3Gi
+Mem:           3.8Gi       448Mi       3.3Gi       4.1Mi       147Mi       3.3Gi
 Swap:          1.0Gi          0B       1.0Gi
