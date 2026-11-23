@@ -1,0 +1,21 @@
+==================================================
+ System Report | Shrishti Bansal | Roll: 2601730321 | 2026-11-23 15:00:40
+==================================================
+
+--- CPU ---
+Model : Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Cores : 4
+
+--- Memory ---
+Total : 3.8Gi
+Used  : 451Mi
+
+--- Top 3 Processes by CPU ---
+PID      COMMAND              %CPU
+1439     awk                  0.0
+1438     head                 0.0
+1437     sort                 0.0
+
+==================================================
+ Report generated successfully.
+==================================================
