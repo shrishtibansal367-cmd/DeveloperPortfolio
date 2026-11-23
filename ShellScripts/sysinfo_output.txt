@@ -1,5 +1,5 @@
 ==================================================
- System Report | Shrishti Bansal | Roll: 2601730321 | 2026-11-23 15:00:40
+ System Report | Shrishti Bansal | Roll: 2601730321 | 2026-11-23 15:52:01
 ==================================================
 
 --- CPU ---
@@ -8,13 +8,13 @@ Cores : 4
 
 --- Memory ---
 Total : 3.8Gi
-Used  : 451Mi
+Used  : 459Mi
 
 --- Top 3 Processes by CPU ---
 PID      COMMAND              %CPU
-1439     awk                  0.0
-1438     head                 0.0
-1437     sort                 0.0
+1714     awk                  0.0
+1713     head                 0.0
+1712     sort                 0.0
 
 ==================================================
  Report generated successfully.

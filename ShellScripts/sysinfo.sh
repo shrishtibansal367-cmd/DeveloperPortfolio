@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Shrishti Bansal (Roll No: XXXXXX)
+# Author: Shrishti Bansal (Roll No: 2601730321)
 # Description: Prints a formatted system information report
 
 NAME="Shrishti Bansal"
